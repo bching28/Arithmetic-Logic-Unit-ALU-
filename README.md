@@ -1,4 +1,4 @@
-Arithmetic Logic Unit
+# Arithmetic Logic Unit
 Bryan Ching
 Designed for Advanced Digital Design course
 
