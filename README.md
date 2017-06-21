@@ -16,6 +16,7 @@ The following is a list of system design specifications:
   - 1 mode switch to determine read or write state
   - 1 push-button to read from or write to memory
   - 1 reset switch
+  
   Outputs:
   - 6 7-segment displays
     - 2 for each of the 6-bit two’s complement numbers
@@ -26,8 +27,11 @@ The following is a list of system design specifications:
     - 1 for indicating overflow of the result of the operation
     - 1 for indicating FIFO is full
     - 1 for indicating FIFO is empty
+    
   2 FSMs:
   - 1 for determining state of logical operation
   - 1 for determining read or write state
+  
   FIFO to store up to 8 operations at one time
+  
   Reset that uses asynchronous assert and synchronous deassert
