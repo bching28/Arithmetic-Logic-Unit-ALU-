@@ -5,7 +5,7 @@ Designed for Advanced Digital Design course
 The following is a list of system design specifications:
 
   Inputs:
-    - 2 6-bit two’s complement numbers
+  - 2 6-bit two’s complement numbers
     - 1 3-bit operations number
       - Add = 000
       - Subtract = 001
